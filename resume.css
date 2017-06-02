@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times', serif;
+    background-color: rgb(36,36,36);
+}
+
+#header {
+    height: 40px;
+    color: white;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+#paper {
+    margin: auto;
+    box-shadow: 0px 2px 20px white;
+    width: 730px;
+    height: 965px;
+    padding: 35px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 36px;
+    margin: 0;
+}
+h2 {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 14px;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid rgb(156,156,156);
+}
+
+
+p {
+    font-size: 15px;
+    margin: 2px;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.center {
+    position: relative;
+    right: -10%;
+    float: left;
+    
+}
+.clear {
+    clear: both;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+ul {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.45;
+}

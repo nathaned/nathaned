@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+body {
+    font-family: Montserrat;
+    margin: 0px;
+}
+/*NAVBAR*/
+nav {
+    height: 10vh;
+    margin-top: 0;
+    float: right; 
+}
+
+#header ul {
+    display: flex;
+    list-style: none;
+}
+
+#header li {
+    padding: 12px 12px;
+    text-shadow: 0 0 8px rgba(255,255,255, 1);
+    flex-grow: 1;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    font-size: 12pt;
+}
+
+#header li:hover {
+    text-shadow: 0 0 8px rgba(150,150,255, 1);
+}
+
+#header a{
+    text-decoration: none;
+    color: black;
+}
+
+/*MAIN TOP OF PAGE*/
+#main {
+    height: auto;
+    background: url("background.jpg") center top no-repeat;
+    position: relative;
+    background-size: cover;
+    overflow: auto;
+    color: white;
+}
+
+#floater {
+    float: left;
+    height: 20vh;
+    width: 100%;
+}
+
+
+#main_inner {
+    clear: both;
+    width: 100%;
+    height: 35vh;
+/*    mix-blend-mode: overlay;*/
+    text-align: center;
+}
+
+#main_inner p{
+    font-size: 16pt;
+    text-shadow: 2px 2px #000000;
+
+}
+
+#gradient {
+    background: none;
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    height: 35vh;
+    width: 100%;
+}
+
+/*ABOUT SECTION*/
+#about {
+    display: block;
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#inner_about {
+    width: 800px;
+    background-color: rgb(250,250,260);
+    border: 5px solid gray;
+    border-radius: 1%;
+    color: black;
+    margin: auto;
+}
+
+#pic_wrapper {
+    float: left;
+    margin: 30px;
+}
+#text_wrapper {
+    display: inline-block;
+    max-width: 400px; 
+}
+#about img {
+    border-radius: 100%;
+    box-shadow: rgb(170,170,170) 0px 5px 25px -2px;
+}
+
+.clear {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: rgb(84, 141, 227);
+    box-shadow: rgb(170,170,170) 0px 5px 5px -2px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button p {
+    font-size: 20pt;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+}
+
+.button:hover {
+    box-shadow: rgb(170,170,250) 0px 5px 15px -2px;
+    background-color: rgb(37, 84, 142);
+}
+
+h1 {
+    font-size: 72pt;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    margin-bottom: 0;
+}
+
+h2 {
+    clear: both;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 30pt;
+}
+
+h3 {
+    margin: 5px;
+    text-align: center;
+    font-size: 24pt;
+}
+
+/*PROJECTS SECTION*/
+#projects {
+    background-color: rgb(233,233,233);
+}
+#card_container {
+    display: inline-block;
+    margin-top: 0;
+    width: 100%;
+}
+
+.card {
+    background-color: black;
+    border-radius: 2%;
+    float: left;
+    color: white;
+    margin: 0px 10px 10px 50px;
+    width: 350px;
+}
+
+.collapsed {
+    display: none;
+}
+
+.img_wrapper {
+    background-color: rgba(0,0,0, 1);
+    width: inherit;
+}
+
+.img_wrapper:hover {
+    background-color: rgba(100,100,100, .75);
+    width: inherit;
+}
+
+.expander {
+    width: 100%;
+    text-align: center;
+    padding-top: 8px;
+    color: #eeeeee;
+    text-shadow: 0 0 1px rgba(255,255,255, 0);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.card_content {
+    padding: 8px;
+}
+
+.expander:hover {
+    color: white;
+    text-shadow: 0 0 1px rgba(255,255,100, .75);
+}
+
+.card img {
+    width: inherit;
+    opacity: 30;
+    mix-blend-mode: screen;
+}
+
+footer {
+    background-color: #aaa;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100%;
+}
