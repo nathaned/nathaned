@@ -8,7 +8,7 @@ body {
 nav {
     height: 10vh;
     margin-top: 0;
-    float: right; 
+    float: right;
 }
 
 #header ul {
@@ -18,11 +18,10 @@ nav {
 
 #header li {
     padding: 12px 12px;
-    text-shadow: 0 0 8px rgba(255,255,255, 1);
     flex-grow: 1;
     font-weight: 500;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 12pt;
 }
 
@@ -32,13 +31,13 @@ nav {
 
 #header a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /*MAIN TOP OF PAGE*/
 #main {
     height: auto;
-    background: url("background.jpg") center top no-repeat;
+    background: #1d055d;
     position: relative;
     background-size: cover;
     overflow: auto;
@@ -96,7 +95,7 @@ nav {
 }
 #text_wrapper {
     display: inline-block;
-    max-width: 400px; 
+    max-width: 400px;
 }
 #about img {
     border-radius: 100%;
